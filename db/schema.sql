@@ -9,6 +9,8 @@ CREATE TABLE burgers (
     id int NOT NULL AUTO_INCREMENT,
     burger_name varchar(255) NOT NULL,
     devoured BOOL DEFAULT false,
-    PRIMARY KEY (id)
+    PRIMARY KEY (id),
+    updatedAt TIMESTAMP NOT NULL DEFAULT NOW() ON UPDATE NOW(),
+    createdAt TIMESTAMP NOT NULL
 );
 
