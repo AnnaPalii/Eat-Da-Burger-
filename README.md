@@ -17,5 +17,5 @@ It is a restaurant app that lets users input the names of burgers they'd like to
 * Your app will store every burger in a database, whether devoured or not.
 
 ## Herokyapp
-https://burger90.herokuapp.com/
+https://burgerhere.herokuapp.com/burgers
 
